@@ -71,4 +71,10 @@
   <ItemGroup>
     <RefactorLog Include="UserDD.refactorlog" />
   </ItemGroup>
+  <ItemGroup>
+    <PostDeploy Include="Script.PostDeployment.sql" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="UserDD.publish.xml" />
+  </ItemGroup>
 </Project>
