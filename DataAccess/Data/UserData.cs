@@ -7,7 +7,7 @@ using System.Text;
 using System.Threading.Tasks;
 
 namespace DataAccess.Data;
-public class UserData
+public class UserData : IUserData
 {
 	private readonly ISqlDataAccess _db;
 
